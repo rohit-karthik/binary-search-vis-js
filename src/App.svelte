@@ -74,6 +74,12 @@
 </script>
 
 <h1>Binary Search Visualizer</h1>
+<p>
+	This website is intended to visualize the node tree a binary search for an integer value makes.
+	Enter in a maximum value for the array below and a value to search for below.
+	This creates an array from 1 to whatever your entered maximum value is, and uses binary search
+	to find the value you chose to search for.
+</p>
 
 {#if errorMess != null}
 	<p style="color: red">{errorMess}</p>
